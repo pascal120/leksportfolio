@@ -15,7 +15,7 @@ const textRef = useRef();
                 showCursor: true, 
                 backDelay:1500,
                 backSpeed:50,
-                strings: ["Developer", "Designer", "Content Creator" ] });
+                strings: ["Web Developer", "WordPress developer", "Content Creator"] });
             },[])
 
 
@@ -30,7 +30,7 @@ const textRef = useRef();
           <div className="wrapper">
               <h2>Hi There, I'm</h2>
               <h1>Olamilekan Olakunle</h1>
-              <h3>Freelance <span ref={textRef}></span></h3>
+              <h3>I'm a <span ref={textRef}></span></h3>
           </div>
           <a href="#portfolio">
               <img src="assets/down.png" alt="" />
